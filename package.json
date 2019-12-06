@@ -1,0 +1,37 @@
+{
+  "name": "@epiphany/eslint-config",
+  "version": "0.1.0",
+  "description": "A set of custom ESLint configs",
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/IAmFletcher/eslint-config#readme",
+  "bugs": "https://github.com/IAmFletcher/eslint-config/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IAmFletcher/eslint-config.git"
+  },
+  "author": "Fletcher Goss",
+  "files": [
+    "./es6.js",
+    "./es11.js",
+    "./node.js",
+    "./rules"
+  ],
+  "main": "./es6.js",
+  "directories": {},
+  "scripts": {
+    "lint": "eslint --fix --cache --cache-location ./cache/.eslintcache **/*.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

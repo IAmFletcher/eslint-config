@@ -1,0 +1,26 @@
+# Code
+.vscode
+
+# Node
+node_modules
+
+# Yarn
+yarn-error.log*
+.yarn-integrity
+
+# ESLint
+.eslintcache
+
+# Jest
+coverage
+
+# Secrets
+.env
+.env.test
+
+# Cache
+cache
+
+# Logs
+logs
+*.log
