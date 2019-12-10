@@ -33,6 +33,9 @@
   "devDependencies": {
     "eslint": "^6.7.2"
   },
+  "peerDependencies": {
+    "eslint": ">=6.7.2"
+  },
   "publishConfig": {
     "access": "public"
   }
