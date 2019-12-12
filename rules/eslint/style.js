@@ -261,7 +261,7 @@ module.exports = {
     // require or disallow padding lines between statements
     'padding-line-between-statements': 'off',
     // disallow the use of `Math.pow` in favor of the `**` operator
-    'prefer-exponentiation-operator': 'off', // ES 2016+
+    'prefer-exponentiation-operator': 'error', // ES 2016+
     // disallow using Object.assign with an object literal as the first argument and prefer the use
     // of object spread instead.
     'prefer-object-spread': 'off', // ES 2018+

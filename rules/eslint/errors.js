@@ -8,7 +8,7 @@ module.exports = {
       { allowImplicit: true },
     ],
     // disallow using an async function as a Promise executor
-    'no-async-promise-executor': 'off',
+    'no-async-promise-executor': 'error',
     // disallow await inside of loops
     'no-await-in-loop': 'error',
     // disallow comparing against -0

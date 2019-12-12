@@ -17,14 +17,12 @@
   },
   "author": "Fletcher Goss",
   "files": [
-    "es6.js",
-    "es2017.js",
-    "es2018.js",
-    "es2020.js",
-    "node.js",
+    "./es2017.js",
+    "./es2020.js",
+    "./node.js",
     "./rules"
   ],
-  "main": "es6.js",
+  "main": "./es2017.js",
   "directories": {},
   "scripts": {
     "lint": "eslint --fix --cache --cache-location ./cache/.eslintcache **/*.js"

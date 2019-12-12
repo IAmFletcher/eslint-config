@@ -38,9 +38,7 @@ $ npm i -D @epiphany/eslint-config
 
 | Name | Type |
 |:-|:-:|
-| @epiphany/eslint-config/es6 | Base |
 | @epiphany/eslint-config/es2017 | Base |
-| @epiphany/eslint-config/es2018 | Base |
 | @epiphany/eslint-config/es2020 | Base |
 | @epiphany/eslint-config/node | Addon |
 

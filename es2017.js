@@ -1,9 +1,16 @@
 module.exports = {
-  extends: ['./es6'],
-  parserOptions: { ecmaVersion: 2017 },
-  env: { es2017: true },
-  rules: {
-    'no-async-promise-executor': 'error',
-    'prefer-exponentiation-operator': 'error',
+  extends: [
+    './rules/eslint/errors',
+    './rules/eslint/best-practices',
+    './rules/eslint/strict',
+    './rules/eslint/variables',
+    './rules/eslint/style',
+    './rules/eslint/es6',
+  ],
+  parserOptions: {
+    ecmaVersion: 2017,
+    sourceType: 'module',
+    ecmaFeatures: { impliedStrict: true },
   },
+  env: { es2017: true },
 };
