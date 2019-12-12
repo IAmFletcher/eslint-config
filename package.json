@@ -17,12 +17,12 @@
   },
   "author": "Fletcher Goss",
   "files": [
-    "./index.js",
-    "./es2020.js",
-    "./node.js",
+    "index.js",
+    "es2020.js",
+    "node.js",
     "./rules"
   ],
-  "main": "./index.js",
+  "main": "index.js",
   "directories": {},
   "scripts": {
     "lint": "eslint --fix --cache --cache-location ./cache/.eslintcache **/*.js"
