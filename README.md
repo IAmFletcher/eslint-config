@@ -41,6 +41,7 @@ $ npm i -D @epiphany/eslint-config
 | @epiphany/eslint-config/es2017 | Base |
 | @epiphany/eslint-config/es2020 | Base |
 | @epiphany/eslint-config/node | Addon |
+| @epiphany/eslint-config/jest | Addon |
 
 ## License
 
