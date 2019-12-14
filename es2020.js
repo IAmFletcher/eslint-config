@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./index'],
+  extends: ['./es2017'],
   parserOptions: { ecmaVersion: 2020 },
   env: { es2020: true },
   rules: {

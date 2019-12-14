@@ -17,7 +17,7 @@
   },
   "author": "Fletcher Goss",
   "files": [
-    "index.js",
+    "es2017.js",
     "es2020.js",
     "typescript.js",
     "typescript-types.js",
@@ -25,7 +25,7 @@
     "jest.js",
     "./rules"
   ],
-  "main": "index.js",
+  "main": "es2017.js",
   "directories": {},
   "scripts": {
     "lint": "eslint --fix --cache --cache-location ./cache/.eslintcache **/*.js"

@@ -1,6 +1,6 @@
 {
   "extends": [
-    "./index",
+    "./es2017",
     "./node"
   ]
 }
