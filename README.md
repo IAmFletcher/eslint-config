@@ -40,8 +40,12 @@ $ npm i -D @epiphany/eslint-config
 |:-|:-:|
 | @epiphany/eslint-config/es2017 | Base |
 | @epiphany/eslint-config/es2020 | Base |
+| @epiphany/eslint-config/typescript | Base |
+| @epiphany/eslint-config/typescript-types | Base |
 | @epiphany/eslint-config/node | Addon |
 | @epiphany/eslint-config/jest | Addon |
+
+**NOTE:** None of the rules in `typescript` require type-checking in order to run. For those, you'll want to use `typescript-types`.
 
 ## License
 

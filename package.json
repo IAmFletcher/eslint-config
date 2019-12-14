@@ -19,6 +19,8 @@
   "files": [
     "index.js",
     "es2020.js",
+    "typescript.js",
+    "typescript-types.js",
     "node.js",
     "jest.js",
     "./rules"
